@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/GymBanner.jpg);
+    color: white;
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.left img{
+    width: 50px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+}
+
+.left div{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.mid{
+    /* border: 2px solid green; */
+    width: 33%;
+    margin: 20px auto;
+}
+
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+}
+
+.btn
+{
+    margin: 0px 10px;
+    padding: 12px 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: grey;
+}
+
+.nav
+{
+    display: inline-block;
+}
+
+
+.nav li
+{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nav li a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.nav li a:hover, .nav li a.active
+{
+    color: grey;
+    text-decoration: underline;
+   
+}
+.container {
+    margin: 100px 640px;
+    font-size: 1.3rem;
+    width: 30%;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+.form-group input {
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-size: 1rem;
+    border: 2px solid black;
+    margin: 5px auto;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+.container h1 {
+    font-size: 24px;
+    width: 430px;
+    display: block;
+    margin: auto;
+}
+
+
+form .btn {
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: 2px solid grey;
+    margin: 5px auto;
+    /* width: 300px; */
+    display: block;
+    width: 100px;
+}
